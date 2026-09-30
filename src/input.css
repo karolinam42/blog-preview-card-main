@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+    --color-yellow: #F4D04E;
+    --font-display: "Figtree", sans-serif;
+    --color-gray: #111111;
+    --color-light-gray: #6B6B6B;
+    --shadow-blur0: 8px 8px 0px;
+}
