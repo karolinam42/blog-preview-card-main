@@ -14,37 +14,47 @@
   <title>Frontend Mentor | Blog preview card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
 
-<body class="flex flex-col h-screen font-display text-gray font-medium bg-yellow">
-  <div class="flex justify-center items-center h-full p-3">
-    <div
-      class="flex flex-col w-xs md:w-sm h-fit gap-3 p-6 bg-white rounded-2xl border-black shadow-gray shadow-blur0 transition-[width] duration-300 border">
-      <div class="block overflow-hidden rounded-lg">
-        <img src="images/illustration-article.svg" alt="course thumbnail"
-          class="mb-3 hover:filter-none grayscale motion-reduce:filter-none transition-transform duration-300 ease-in motion-reduce:transition-none hover:scale-105 rounded-lg">
-      </div>
-      <p class="w-fit px-3 py-1 text-sm md:text-sm font-extrabold bg-yellow rounded-sm">
-        <!-- why?-->
-        Learning
-      </p>
-      <p class="text-cs md:text-sm">Published 21 Dec 2023</p>
+<body class="font-display text-gray font-medium">
+  <div class="flex flex-col h-screen w-screen">
+    <div class="h-full w-screen flex items-center justify-center overflow-y-auto bg-yellow p-2">
+      <div class="flex flex-col w-xs md:w-sm h-fit gap-3 p-6 bg-white rounded-2xl border-black shadow-gray shadow-blur0
+      transition-[width] duration-300 border m-2 mb-5">
+        <div class="block overflow-hidden rounded-lg">
+          <img src="images/illustration-article.svg" alt="course thumbnail"
+            class="object-center mb-3 hover:filter-none grayscale motion-reduce:filter-none transition-all duration-300 ease-in hover:scale-101 motion-reduce:transition-none rounded-lg">
+        </div>
+        <p class="w-fit px-3 py-1 text-sm md:text-sm font-extrabold bg-yellow rounded-sm">
+          <!-- why?-->
+          Learning
+        </p>
+        <p class="text-cs md:text-sm">Published 21 Dec 2023</p>
 
-      <h1
-        class="text-xl md:text-2xl font-extrabold hover:text-yellow transition-colors duration-300 ease-in motion-reduce:duration-0">
-        HTML & CSS
-        foundations</h1>
+        <h1 class="motion-reduce:duration-0 text-xl font-extrabold transition-colors duration-300 ease-in
+        hover:text-yellow md:text-2xl">
+          HTML & CSS foundations</h1>
 
-      <p class="text-light-gray text-sm md:text-base">These languages are the backbone of every website, defining
-        structure,
-        content, and presentation.</p>
-      <div class="flex flex-row items-center gap-3">
-        <img src="images/image-avatar.webp" alt="profile picture" class="size-8">
-        <p class="text-xs md:text-sm font-extrabold">Greg Hooper</p>
+        <p class="text-light-gray text-sm md:text-base">
+          These languages are the backbone of every website, defining structure, content, and presentation.</p>
+        <div class="flex flex-row items-center gap-3">
+          <img src="images/image-avatar.webp" alt="profile picture" class="size-8">
+          <p class="text-xs md:text-sm font-extrabold">Greg Hooper</p>
+        </div>
       </div>
     </div>
+
+    <footer
+      class="bg-yellow text-xs h-5 w-screen text-center font-normal flex justify-center items-center p-3 text-gray">
+      Challenge
+      by <a href="https://www.frontendmentor.io?ref=challenge"
+        class="font-extrabold underline decoration-1 hover:decoration-2 duration-300 transition-all">Frontend
+        Mentor</a>.
+      Coded by <a href="https://github.com/karolinam42"
+        class="font-extrabold underline decoration-1 hover:decoration-2">
+        karolinam42</a>.
+    </footer>
   </div>
-  <footer class="text-center">Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.</footer>
 </body>
 
 </html>
