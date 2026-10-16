@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://karolinam42.github.io/blog-preview-card-main/)
 
 ## My process
 
@@ -62,7 +62,8 @@ No AI was used in this project.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
+- github - [karolinam42](https://github.com/karolinam42)
+- Frontend Mentor - [@karolinam42](https://www.frontendmentor.io/profile/karolinam42)
+- LinkedIn - [Karolina M](https://www.linkedin.com/in/karolina-maryniak-96b3a3370/)
 
